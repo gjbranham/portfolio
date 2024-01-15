@@ -45,10 +45,10 @@ export default function Contact() {
                 EMAIL
               </h2>
               <a
-                href="mailto:griffinbranham@email.com"
+                href="mailto:griffinbranham@gmail.com"
                 className="text-indigo-400 leading-relaxed"
               >
-                griffinbranham@email.com
+                griffinbranham@gmail.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
