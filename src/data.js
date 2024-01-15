@@ -5,10 +5,10 @@ export const skills = [
   "Typescript",
   "SQL",
   "Spring Boot",
+  "Gin",
   "Django",
   "AWS",
   "Docker",
-  "Gin",
   "NoSQL",
   "CircleCI",
 ];
