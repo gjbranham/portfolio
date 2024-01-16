@@ -1,17 +1,17 @@
 import React from "react";
-import About from "./components/About";
+import Bio from "./components/Bio";
 import Contact from "./components/Contact";
+import Landing from "./components/Landing";
 import Navbar from "./components/Navbar";
-import CV from "./components/CV";
 import Skills from "./components/Skills";
 
 export default function App() {
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
       <Navbar />
-      <About />
+      <Landing />
       <Skills />
-      <CV />
+      <Bio />
       <Contact />
     </main>
   );
