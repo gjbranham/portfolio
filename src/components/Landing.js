@@ -14,7 +14,7 @@ export default function Landing() {
             I'm a software engineer specializing in backend cloud services, and
             currently looking for new opportunities!
           </p>
-          <div className="flex justify-center">
+          <div className="flex flex-wrap justify-center">
             <a
               href="#contact"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
