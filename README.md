@@ -1,1 +1,0 @@
-Griffin's professional portfolio
