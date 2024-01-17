@@ -17,19 +17,19 @@ export default function Landing() {
           <div className="flex flex-wrap justify-center">
             <a
               href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg mb-3"
             >
               Get In Touch
             </a>
             <a
               href="#skills"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg mb-3"
             >
               Skills
             </a>
             <a
               href="#bio"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg mb-3"
             >
               Bio
             </a>
@@ -48,7 +48,7 @@ export default function Landing() {
                 >
                   {text}
                   {Icon && (
-                    <Icon className="h-5 w-5 text-white sm:h-6 sm:w-6 pl-1.5" />
+                    <Icon className="h-5 w-5 text-gray sm:h-6 sm:w-6 pl-1.5" />
                   )}
                 </a>
               ))}
