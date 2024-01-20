@@ -43,7 +43,6 @@ export default function Landing() {
                       : "border-white ring-white"
                   )}
                   href={href}
-                  download
                   key={text}
                 >
                   {text}
