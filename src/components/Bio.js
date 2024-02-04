@@ -27,8 +27,9 @@ export default function Bio() {
             to learn and expand my knowledge base every day.
             <br />
             <br />
-            In my free time I'm a busy dad but still love mountain biking and
-            reading all things history, paleontology, and (sometimes) fiction.
+            In my free time I'm a busy dad but still love mountain biking,
+            reading about history, paleontology, and (sometimes) fiction, and
+            looking for owls!
           </p>
         </div>
       </div>
