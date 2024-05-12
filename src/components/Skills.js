@@ -11,7 +11,7 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Languages, frameworks and tools I've used professionally and
+            A few prominent languages, frameworks and tools I've used professionally and
             personally.
           </p>
         </div>

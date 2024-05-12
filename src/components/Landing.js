@@ -11,8 +11,9 @@ export default function Landing() {
             Hi, I'm Griffin.
           </h1>
           <p className="mb-8 leading-relaxed">
-            I'm a software engineer specializing in backend cloud services, and
-            currently looking for new opportunities!
+            I'm a software engineer specializing in backend cloud services and
+            technologies. I'm always open to talking about new ideas or
+            opportunities so don't hesitate to get in touch!
           </p>
           <div className="flex flex-wrap justify-center">
             <a

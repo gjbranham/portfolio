@@ -1,18 +1,16 @@
 import { FiDownload } from "react-icons/fi";
 
 export const skills = [
-  "Golang",
+  "Go",
   "Python",
   "Java",
-  "Typescript",
-  "SQL",
+  "Docker",
+  "PostgreSQL",
+  "DynamoDB",
   "Spring Boot",
-  "Gin",
   "Django",
   "AWS",
-  "Docker",
-  "NoSQL",
-  "CircleCI",
+  "GCP",
 ];
 
 export const actionsData = [
