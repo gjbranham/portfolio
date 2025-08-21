@@ -11,8 +11,8 @@ export default function Landing() {
             Hi, I'm Griffin.
           </h1>
           <p className="mb-8 leading-relaxed">
-            I'm a software engineer specializing in backend cloud services and
-            technologies. I'm always open to talking about new ideas or
+            I'm a software engineer specializing in infrastructure and backend
+            web services. I'm always open to talking about new ideas or
             opportunities so don't hesitate to get in touch!
           </p>
           <div className="flex flex-wrap justify-center">
@@ -23,27 +23,31 @@ export default function Landing() {
               Get In Touch
             </a>
             <a
-              href="#skills"
+              href="#skills-title"
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg mb-3"
             >
               Skills
             </a>
             <a
-              href="#bio"
+              href="#bio-title"
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg mb-3"
             >
               Bio
             </a>
             <span>
-              {actionsData.map(({ href, text, primary, Icon }) => (
+              {actionsData.map(({ href, text, primary, Icon, disabled }) => (
                 <a
                   className={classNames(
-                    "ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg",
+                    "ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none rounded text-lg",
                     primary
                       ? "border-orange-500 ring-orange-500"
-                      : "border-white ring-white"
+                      : "border-white ring-white",
+                    disabled
+                      ? "opacity-50 cursor-not-allowed"
+                      : "hover:bg-gray-700 hover:text-white"
                   )}
-                  href={href}
+                  onClick={(e) => disabled && e.preventDefault()}
+                  href={disabled ? undefined : href}
                   key={text}
                 >
                   {text}
